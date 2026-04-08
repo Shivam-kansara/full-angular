@@ -1,0 +1,41 @@
+<!-- Lecture 32 :   Header with Routing in Angular.   
+<h2>Home Page ! </h2><br><br>
+-->
+
+<!--   Lecture : 34  Pass Data form One Page to Another  -->
+
+
+<!--this a data pass with routerlink example    
+<a [routerLink]="['profile' , {name : 'shivam'}]">go to Profile Page<a>
+-->
+
+
+<!--   it is a data pass with button link example    -->
+<!--  <button (click)="gotoprofile()">go to profile</button>   
+-->
+
+
+<!--   data pass with router example   
+
+<a routerLink="profile" >go to profile</a>
+
+-->
+
+
+
+
+
+<!--  Lecture : 35   Dynamic Routing in angular  
+
+
+<h1>User List</h1>
+
+<ul>
+    
+@for (data of users; track data.id) {
+    <li> <a routerLink="user/{{data.id}}/{{data.name}}" >{{data.name}}</a>
+      </li>
+}
+</ul>
+
+-->

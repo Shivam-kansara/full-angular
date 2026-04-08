@@ -1,0 +1,104 @@
+/* Background 
+body {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings 
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Styling 
+form {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Inputs & Textarea 
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Focus Effect 
+input:focus, textarea:focus {
+  border-color: #4facfe;
+  outline: none;
+  box-shadow: 0 0 6px #4facfe;
+}
+
+/* Button 
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button Hover 
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #3a8dff, #0099cc);
+}
+
+/* Table Styling 
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Table Header 
+th {
+  background: #4facfe;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Table Data 
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Row Hover 
+tr:hover {
+  background: #f1f9ff;
+  transition: 0.3s;
+}
+
+/* Responsive 
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}
+  */

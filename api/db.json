@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "viart kholi",
+      "age": 38,
+      "email": "viratkholi@18gmail.comx",
+      "id": "-3At2AiPpnA"
+    },
+    {
+      "name": "shiavm",
+      "age": 19,
+      "email": "shivu@21test.com",
+      "id": "yMF-7ZxWkxY"
+    },
+    {
+      "name": "axar patel",
+      "age": 34,
+      "email": "axar@123test.com",
+      "id": "_VzM1IGnXI0"
+    },
+    {
+      "name": "bumarh",
+      "age": "35",
+      "email": "boom@777test.com",
+      "id": "1S3A_7Ag3Gs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

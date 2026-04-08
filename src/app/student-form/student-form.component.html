@@ -1,0 +1,45 @@
+<!--// it is a my project 
+
+<h2>Student Registration Form</h2>
+   
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+
+<input type="text" formControlName="name" placeholder="Student Name">
+<br><br>
+
+<input type="email" formControlName="email" placeholder="Email">
+<br><br>
+
+<input type="text" formControlName="mobile" placeholder="Mobile Number">
+<br><br>
+
+<input type="text" formControlName="course" placeholder="Course">
+<br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+<hr>
+
+<h3>Student List</h3>
+
+<table border="1">
+
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Mobile</th>
+<th>Course</th>
+</tr>
+
+<tr *ngFor="let student of students">
+<td>{{student.name}}</td>
+<td>{{student.email}}</td>
+<td>{{student.mobile}}</td>
+<td>{{student.course}}</td>
+</tr>
+
+</table>
+
+-->

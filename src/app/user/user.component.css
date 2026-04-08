@@ -1,0 +1,14 @@
+ /*  this css for Lecture 43 : Reuse componnet in angular.
+
+h2{
+    border: 3px solid lightgreen;
+    width: 20%;
+    display: flex;
+    justify-content: space-between
+}
+
+h2 span {
+    background-color: coral;
+    padding: 10x
+}
+*/

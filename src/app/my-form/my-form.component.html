@@ -1,0 +1,39 @@
+<!--
+<h2>Student Registration Form</h2>
+
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+
+  <input type="text" placeholder="Name" formControlName="name">
+
+  <input type="email" placeholder="Email" formControlName="email">
+
+  <input type="text" placeholder="Contact Number" formControlName="contact">
+
+  <input type="text" placeholder="Course Name" formControlName="course">
+
+  <textarea placeholder="Address" formControlName="address"></textarea>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+<h3>Student List</h3>
+
+<table  width="100%" style="margin-top:20px;">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Contact</th>
+    <th>Course</th>
+    <th>Address</th>
+  </tr>
+
+  <tr *ngFor="let student of students">
+    <td>{{student.name}}</td>
+    <td>{{student.email}}</td>
+    <td>{{student.contact}}</td>
+    <td>{{student.course}}</td>
+    <td>{{student.address}}</td>
+  </tr>
+</table>
+-->
