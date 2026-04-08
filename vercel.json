@@ -1,4 +1,4 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && ng build",
-  "outputDirectory": "dist/full-angular"
+  "outputDirectory": "dist/first-app/browser"
 }
