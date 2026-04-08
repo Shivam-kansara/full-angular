@@ -48,9 +48,6 @@ export const routes: Routes = [
 
 
 
-
-
-
 // Lecture 58 : Routing lazy loading
 // {path : 'admin' , component : AdminComponent},
 // this above routing is only routing not lazy routing
